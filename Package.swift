@@ -23,7 +23,7 @@ let package = Package(
             ],
             path: "KTVHTTPCache",
             exclude: ["Info.plist"],
-            publicHeadersPath: "include",
+            publicHeadersPath: "Classes",
             cSettings: [
                 .headerSearchPath("Classes/KTVHCCommon"),
                 .headerSearchPath("Classes/KTVHCDataStorage"),
