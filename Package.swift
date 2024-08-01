@@ -22,7 +22,7 @@ let package = Package(
                 .product(name: "CocoaAsyncSocket", package: "CocoaAsyncSocket")
             ],
             path: "KTVHTTPCache",
-            exclude: ["Info.plist"],
+            exclude: ["Info.plist", "CocoaHTTPServer"],
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("Classes/KTVHCCommon"),
