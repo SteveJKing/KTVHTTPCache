@@ -26,11 +26,11 @@ let package = Package(
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("Classes/KTVHCCommon"),
-                .headerSearchPath("Classes/KTVHCDataStorage")
-		.headerSearchPath("Classes/KTVHCTools")
-		.headerSearchPath("Classes/KTVHCDownload")
-		.headerSearchPath("Classes/KTVHCHTTPServer")
-		.headerSearchPath("Classes/KTVHCTools")
+                .headerSearchPath("Classes/KTVHCDataStorage"),
+		.headerSearchPath("Classes/KTVHCTools"),
+		.headerSearchPath("Classes/KTVHCDownload"),
+		.headerSearchPath("Classes/KTVHCHTTPServer"),
+		.headerSearchPath("Classes/KTVHCTools"),
 		.headerSearchPath("CocoaHTTPServer")
             ]
         )
