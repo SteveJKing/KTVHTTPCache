@@ -27,6 +27,11 @@ let package = Package(
             cSettings: [
                 .headerSearchPath("Classes/KTVHCCommon"),
                 .headerSearchPath("Classes/KTVHCDataStorage")
+		.headerSearchPath("Classes/KTVHCTools")
+		.headerSearchPath("Classes/KTVHCDownload")
+		.headerSearchPath("Classes/KTVHCHTTPServer")
+		.headerSearchPath("Classes/KTVHCTools")
+		.headerSearchPath("CocoaHTTPServer")
             ]
         )
     ]
